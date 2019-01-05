@@ -1,0 +1,26 @@
+.inline_block_nav {
+    background-color: pink;
+    text-align: center;
+    border: 1px solid red; 
+   }
+   
+   .inline_block_nav li {
+     display: inline-block;
+     font-size: 18px;
+     padding: 20px;
+     border: 1px solid black;
+   
+   }
+   
+   .floated_nav {
+     background-color: plum;
+     border: 1px solid black;
+     text-align: center;
+   }
+   
+   .floated_nav li {
+     float: left;
+     width: 25%;
+     padding: 10px;
+     border: 1px solid aqua;
+   }

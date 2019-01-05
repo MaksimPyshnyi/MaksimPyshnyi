@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30 px;
+}
+
+h1 {
+    color: orange;
+    text-align: right;
+}
+
+p::first-letter {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: red;
+}
+
+em {
+    background-color:green;
+    color:white;
+}
+
+#allotment h2 {
+    color:orange;
+}
+
+#warehouse h2 {
+    color:blue;
+}
+
+.plants-list ul > li{
+    font-weight: bold;
+}
+
+.fruits-list li,
+.vegetables-list li{
+    font-weight: normal;
+}
+
+ul > li {
+    color:black;
+}
+ul > li > .fruits-list {
+    color: green;
+}
+
+ul > li > .vegetables-list {
+    color: red;
+}
+
+#allotment ul > li > .fruits-list {
+    color: gray;
+}

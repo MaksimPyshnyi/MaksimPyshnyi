@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #696969;
+    max-width: 500px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.attention {
+    font-size: 40px;
+}
+
+.text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    border: 1px solid white;
+    border-radius: 32px;
+    text-align: center; 
+    font-size: 22px;
+    background-color: #696969;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="text"] { 
+    border: 1px solid white; 
+    padding: 24px 8px; 
+    color: #fff; 
+    width: 100%;
+   }
+input[type="text"]::placeholder { color: white; } 
+
+input:focus {
+    border-color: #3CB371;
+  }
+input {outline:none;}
+
+.price_button {
+    width: 100%;
+    border: 0; 
+    border-radius: 32px;
+    border: 1px solid white;
+    background-color: #3CB371;;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  
+  .price_button_link {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 1;
+    color: white;
+    padding: 24px 10px; 
+  }
